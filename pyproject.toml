@@ -1,0 +1,67 @@
+[tool.poetry]
+name = "tag-image-manager-challange"
+version = "0.1.0"
+description = ""
+authors = ["msylvan <marksylvan@aussiebb.com.au>"]
+
+[tool.poetry.dependencies]
+chalice = "^1.26.1"
+python = "^3.9"
+pg8000 = "^1.22.0"
+sqlalchemy = { version = "^1.4.26", extras = ["mypy"] }
+boto3 = "^1.19.9"
+boto3-stubs = {extras = ["s3"], version = "^1.19.9"}
+requests = {version = "^2.27.1", extras = ["security"]}
+
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+pytest = "^6.2.5"
+black = "^21.10b0"
+mypy = "^0.910"
+
+coverage = "^6.1"
+flake8-black = "^0.2.3"
+flake8-isort = "^4.0.0"
+pytest-cov = "^3.0.0"
+
+boto3 = "^1.19.8"
+
+pytest-snapshot = "^0.7.0"
+simplejson = "^3.17.5"
+
+pytest-freezegun = "^0.4.2"
+
+moto = {extras = ["s3"], version = "^2.2.12"}
+pytest-mock = "^3.6.1"
+requests = "^2.27.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[mypy]
+plugins = ["sqlalchemy.ext.mypy.plugin"]
+
+[tool.black]
+line-length = 79
+target_version = ['py38']
+exclude = '''
+/(
+      build
+    | dist
+    | _build
+    | \.git
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+)/
+'''
+
+[tool.isort]
+profile = "black"
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = "E203"

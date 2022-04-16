@@ -1,0 +1,2286 @@
+{
+  "meta": {
+    "current_page": 1,
+    "has_more_pages": false,
+    "total_results": 199
+  },
+  "results": [
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-101.dcm",
+      "id": 101,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-101.dcm?AWSAccessKeyId=testing&Signature=8qjxFZX%2FuudylCQW3zNOJalNTH0%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-102.dcm",
+      "id": 102,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-102.dcm?AWSAccessKeyId=testing&Signature=Q2LuYgCg9VJfkGDo3fvSu76gqxA%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-103.dcm",
+      "id": 103,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-103.dcm?AWSAccessKeyId=testing&Signature=Qn2GcmMkbnfuIn%2BEzs6I%2B0DDkxg%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-104.dcm",
+      "id": 104,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-104.dcm?AWSAccessKeyId=testing&Signature=xbAYLqEQgCc8fZSKEt4V5p5Hf2o%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-105.dcm",
+      "id": 105,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-105.dcm?AWSAccessKeyId=testing&Signature=GMY0GbjD2GkRM0BMIDeb3jL%2Bsww%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-106.dcm",
+      "id": 106,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-106.dcm?AWSAccessKeyId=testing&Signature=BzGVjvg%2FrdUbSFMNPXcgeU8fcjU%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-107.dcm",
+      "id": 107,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-107.dcm?AWSAccessKeyId=testing&Signature=MRN5eyjYLuIse0T1ZAtqj3bf7mk%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-108.dcm",
+      "id": 108,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-108.dcm?AWSAccessKeyId=testing&Signature=zkZY51XZhS0NKrGv4DbG01VPsq8%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-109.dcm",
+      "id": 109,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-109.dcm?AWSAccessKeyId=testing&Signature=N706OkQj0GSBmyNLSn62aj%2FJGGo%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-110.dcm",
+      "id": 110,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-110.dcm?AWSAccessKeyId=testing&Signature=Vus2va4xcDiIuO7AGaaiXJq8XEo%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-111.dcm",
+      "id": 111,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-111.dcm?AWSAccessKeyId=testing&Signature=6QpXsCqmrXtH2qGAFOIwiv%2F%2BKJg%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-112.dcm",
+      "id": 112,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-112.dcm?AWSAccessKeyId=testing&Signature=mhR4R1E8Tcf8Ocj5JP11vqalAcg%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-113.dcm",
+      "id": 113,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-113.dcm?AWSAccessKeyId=testing&Signature=yaBfxDCJ8a2l1b7fe4%2FbM1De3%2B4%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-114.dcm",
+      "id": 114,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-114.dcm?AWSAccessKeyId=testing&Signature=TTeH9Q8crKrttqDe9XkiMONPRb8%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-115.dcm",
+      "id": 115,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-115.dcm?AWSAccessKeyId=testing&Signature=F2%2FgMJj3zxXiIzh7TvNWrEMP9QQ%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-116.dcm",
+      "id": 116,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-116.dcm?AWSAccessKeyId=testing&Signature=I5%2FsExqwapKyR59RFLZK2CPoXgE%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-117.dcm",
+      "id": 117,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-117.dcm?AWSAccessKeyId=testing&Signature=ZD4IHZ%2Bqi6%2F2jUBZrVLQpxocLWI%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-118.dcm",
+      "id": 118,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-118.dcm?AWSAccessKeyId=testing&Signature=vYdp%2B4SMGpM75FaHYArmluXJwiw%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-119.dcm",
+      "id": 119,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-119.dcm?AWSAccessKeyId=testing&Signature=Q2NgsSAwY3BwXhVX9q8JwFl%2BOek%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-120.dcm",
+      "id": 120,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-120.dcm?AWSAccessKeyId=testing&Signature=3F0VAtJe31DEoPKBUdsemiDDnn0%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-121.dcm",
+      "id": 121,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-121.dcm?AWSAccessKeyId=testing&Signature=rh8ZB8tyQH%2B2SyjXW4MEPZFseyc%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-122.dcm",
+      "id": 122,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-122.dcm?AWSAccessKeyId=testing&Signature=rWn0COLkGJ%2FejF6eotgz3m5rtQE%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-123.dcm",
+      "id": 123,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-123.dcm?AWSAccessKeyId=testing&Signature=XY9tkmWuiwmJCfx20hKUDyIfLc8%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-124.dcm",
+      "id": 124,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-124.dcm?AWSAccessKeyId=testing&Signature=I8Vs2fWCoSf37lcVStvdx9MSJvY%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-125.dcm",
+      "id": 125,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-125.dcm?AWSAccessKeyId=testing&Signature=DgOg2oitmoeiOljw8U6X6lyFWcA%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-126.dcm",
+      "id": 126,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-126.dcm?AWSAccessKeyId=testing&Signature=zKgJbubowdXO4iWUqoJqUiBUtlk%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-127.dcm",
+      "id": 127,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-127.dcm?AWSAccessKeyId=testing&Signature=pNXgkGktxAg6p3LZ0Ys3n%2BGPeDA%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-128.dcm",
+      "id": 128,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-128.dcm?AWSAccessKeyId=testing&Signature=V06q33LQ4Rcu1GXV%2B0XP89L7VuA%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-129.dcm",
+      "id": 129,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-129.dcm?AWSAccessKeyId=testing&Signature=1vBq7tu%2F9jqM0O%2B23%2B6h7no5oq0%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-130.dcm",
+      "id": 130,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-130.dcm?AWSAccessKeyId=testing&Signature=wrxIDJ9Mc32Zi%2BG9m76r8eLrvmk%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-131.dcm",
+      "id": 131,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-131.dcm?AWSAccessKeyId=testing&Signature=BswMlOrJkABkAEh4GL%2FiZisH79E%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-132.dcm",
+      "id": 132,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-132.dcm?AWSAccessKeyId=testing&Signature=NUPw1mt6MIc225RdM8%2FsDGvzoGM%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-133.dcm",
+      "id": 133,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-133.dcm?AWSAccessKeyId=testing&Signature=UrP%2B329tbIfKL19S4luryvwHJeY%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-134.dcm",
+      "id": 134,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-134.dcm?AWSAccessKeyId=testing&Signature=bWnSHdaVO5enZDBFiH%2Bj4kEJv0s%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-135.dcm",
+      "id": 135,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-135.dcm?AWSAccessKeyId=testing&Signature=1AQTamnwHwiG3814iYiwFbCoPWk%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-136.dcm",
+      "id": 136,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-136.dcm?AWSAccessKeyId=testing&Signature=Lv9PU1C9dXY9oAtaDZB2detMpT4%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-137.dcm",
+      "id": 137,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-137.dcm?AWSAccessKeyId=testing&Signature=r%2FTWh3dKFLiiFPpTnTNUu2FkuXQ%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-138.dcm",
+      "id": 138,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-138.dcm?AWSAccessKeyId=testing&Signature=yFGT7xnoqMKbhXHXiaX2xH8P3W4%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-139.dcm",
+      "id": 139,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-139.dcm?AWSAccessKeyId=testing&Signature=m3M0TjXBm2kLjSyc4cH1WyFvcck%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-140.dcm",
+      "id": 140,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-140.dcm?AWSAccessKeyId=testing&Signature=BHx%2B%2BbsF4LEaJW9%2F9zGYErHEgss%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-141.dcm",
+      "id": 141,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-141.dcm?AWSAccessKeyId=testing&Signature=Ywir2%2FQx1LHnDf6kznCVScFXS4s%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-142.dcm",
+      "id": 142,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-142.dcm?AWSAccessKeyId=testing&Signature=0U6DXDRv%2FqVVOb6Z20PUYPxa4bY%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-143.dcm",
+      "id": 143,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-143.dcm?AWSAccessKeyId=testing&Signature=f0%2BW95X5N0Br2y6ar%2FIAZqgm3xc%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-144.dcm",
+      "id": 144,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-144.dcm?AWSAccessKeyId=testing&Signature=g71tcYR9ZCVXaLaOhk3n8j4SHRk%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-145.dcm",
+      "id": 145,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-145.dcm?AWSAccessKeyId=testing&Signature=AQ8Wfi%2Fw6Yd6R1munQrVIh4r6KA%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-146.dcm",
+      "id": 146,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-146.dcm?AWSAccessKeyId=testing&Signature=fmf3kDC9Pv8c0CloRKb5NIbwUlU%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-147.dcm",
+      "id": 147,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-147.dcm?AWSAccessKeyId=testing&Signature=UH5xMLy79Fai2zKJ%2B0H6v9pedQ8%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-148.dcm",
+      "id": 148,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-148.dcm?AWSAccessKeyId=testing&Signature=sIIvtnYxm9u%2B1kzG5ausOaRCUa8%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-149.dcm",
+      "id": 149,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-149.dcm?AWSAccessKeyId=testing&Signature=dXCGxKFn%2BgsBN9Wrfsye28UUonU%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-150.dcm",
+      "id": 150,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-150.dcm?AWSAccessKeyId=testing&Signature=oW7BfHDk7bTX45ozW1aJxJUnum4%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-151.dcm",
+      "id": 151,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-151.dcm?AWSAccessKeyId=testing&Signature=KbhcJROgMyoUDjoOCns6S9dJlQc%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-152.dcm",
+      "id": 152,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-152.dcm?AWSAccessKeyId=testing&Signature=5HnmoRPl2GNsO5bdknIWIDCe32Q%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-153.dcm",
+      "id": 153,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-153.dcm?AWSAccessKeyId=testing&Signature=k9VYnsiwRgyBGx5Poe0K0DVpVsI%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-154.dcm",
+      "id": 154,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-154.dcm?AWSAccessKeyId=testing&Signature=kjFAYDGgumYo4HQTAADJ3wPHZEY%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-155.dcm",
+      "id": 155,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-155.dcm?AWSAccessKeyId=testing&Signature=N%2B%2FLBUtrKVrF6sNkmwf29Z2YqRw%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-156.dcm",
+      "id": 156,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-156.dcm?AWSAccessKeyId=testing&Signature=fcmJ9jRFpderN%2FnfM2eNZG60xg0%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-157.dcm",
+      "id": 157,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-157.dcm?AWSAccessKeyId=testing&Signature=OS8hIflYtbI8FB8fbBaTO%2BMySIE%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-158.dcm",
+      "id": 158,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-158.dcm?AWSAccessKeyId=testing&Signature=bBuuSIRpXU8%2BTBs%2FGWKxNRDcUiw%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-159.dcm",
+      "id": 159,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-159.dcm?AWSAccessKeyId=testing&Signature=e1TX1hmgKAXYwbu2Y7WpuHtAQiY%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-160.dcm",
+      "id": 160,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-160.dcm?AWSAccessKeyId=testing&Signature=UYn68Gk7a8cAyORNgDtyKSdlE68%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-161.dcm",
+      "id": 161,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-161.dcm?AWSAccessKeyId=testing&Signature=v6vwuEdqpovCTIMGCUkQMYKNpJo%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-162.dcm",
+      "id": 162,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-162.dcm?AWSAccessKeyId=testing&Signature=v31S5WDAhPO4aYutEsKLL%2BQ9zA4%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-163.dcm",
+      "id": 163,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-163.dcm?AWSAccessKeyId=testing&Signature=0MIboq6GAm8KhQvGpB7voPMUjUc%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-164.dcm",
+      "id": 164,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-164.dcm?AWSAccessKeyId=testing&Signature=AXVPqivoejFgN%2BX9Qm2PRK8GTFg%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-165.dcm",
+      "id": 165,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-165.dcm?AWSAccessKeyId=testing&Signature=SojxGmhN4h2lUI0e3q2OmH3fv2o%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-166.dcm",
+      "id": 166,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-166.dcm?AWSAccessKeyId=testing&Signature=3BhLHGPyd3J%2FpN4CXoEGkjNdJ28%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-167.dcm",
+      "id": 167,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-167.dcm?AWSAccessKeyId=testing&Signature=khsIGCX28BtSMgUiJ%2BtR9r24ZRs%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-168.dcm",
+      "id": 168,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-168.dcm?AWSAccessKeyId=testing&Signature=r1I%2Fl4%2FLNZj%2BgfNHDWBX2eVWqYg%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-169.dcm",
+      "id": 169,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-169.dcm?AWSAccessKeyId=testing&Signature=XW0CzfjfjAIyM6Vi6dMR4lmwCMY%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-170.dcm",
+      "id": 170,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-170.dcm?AWSAccessKeyId=testing&Signature=ghJ9ySeUsnMdwD7pdtvFSdJVZoQ%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-171.dcm",
+      "id": 171,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-171.dcm?AWSAccessKeyId=testing&Signature=Xrzk9O95tiyfZcUVDhIutFxA1iU%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-172.dcm",
+      "id": 172,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-172.dcm?AWSAccessKeyId=testing&Signature=J8tjCWYTpcVMXPzFAzny4fs0rUE%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-173.dcm",
+      "id": 173,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-173.dcm?AWSAccessKeyId=testing&Signature=bOzO%2FtyZYDx5iaB1wboJ49wQ37g%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-174.dcm",
+      "id": 174,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-174.dcm?AWSAccessKeyId=testing&Signature=B%2Bl%2Bv72uhjpzYq31vrNX5NsveEg%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-175.dcm",
+      "id": 175,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-175.dcm?AWSAccessKeyId=testing&Signature=uVkBMDzXAW2%2FSga8pNAbJcQhvzU%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-176.dcm",
+      "id": 176,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-176.dcm?AWSAccessKeyId=testing&Signature=%2BLlBRKyyH5pHWqG%2BYOv4ZXyKbiY%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-177.dcm",
+      "id": 177,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-177.dcm?AWSAccessKeyId=testing&Signature=jt6VfwxexNhwSETp7d%2BMXGkKpJk%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-178.dcm",
+      "id": 178,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-178.dcm?AWSAccessKeyId=testing&Signature=lFsTNZqB9YdnCFzmNUUcodjPgQk%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-179.dcm",
+      "id": 179,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-179.dcm?AWSAccessKeyId=testing&Signature=nWg4iT2XD1QVV%2FOvS5Xz5X4wBfs%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-180.dcm",
+      "id": 180,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-180.dcm?AWSAccessKeyId=testing&Signature=JJjKcwOMblvqvdSFKAbWRt74QCA%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-181.dcm",
+      "id": 181,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-181.dcm?AWSAccessKeyId=testing&Signature=zciEBlSuHqnS2ieW9ZwT4HgaRiM%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-182.dcm",
+      "id": 182,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-182.dcm?AWSAccessKeyId=testing&Signature=z%2B1Sxsfy2YsdDkHtyeSb97attwI%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-183.dcm",
+      "id": 183,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-183.dcm?AWSAccessKeyId=testing&Signature=FfQYLapKg1pKZ36X76wj3qLZoVY%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-184.dcm",
+      "id": 184,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-184.dcm?AWSAccessKeyId=testing&Signature=4yiz9fYjZE2e6ALfnYBGFCSlreI%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-185.dcm",
+      "id": 185,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-185.dcm?AWSAccessKeyId=testing&Signature=jZ%2BABZeTh0H6yZNxXEIggNW1atc%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-186.dcm",
+      "id": 186,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-186.dcm?AWSAccessKeyId=testing&Signature=Tc6TdRY5DCWiryl353a2NUs67Uk%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-187.dcm",
+      "id": 187,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-187.dcm?AWSAccessKeyId=testing&Signature=a%2BeeasWIc2rtLXWZ3Zh2E9W9bko%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-188.dcm",
+      "id": 188,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-188.dcm?AWSAccessKeyId=testing&Signature=frXH6um6btloA%2FbSt9ptIdQCxH0%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-189.dcm",
+      "id": 189,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-189.dcm?AWSAccessKeyId=testing&Signature=2J7Smjnlkmxs2bW%2F2nTfKfCPuFs%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-190.dcm",
+      "id": 190,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-190.dcm?AWSAccessKeyId=testing&Signature=sG%2ByT47XoMKmdcOPq5fyPisW0tg%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-191.dcm",
+      "id": 191,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-191.dcm?AWSAccessKeyId=testing&Signature=%2BgIQKnJuDCC2n%2BdoVjuZ93K0JaY%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-192.dcm",
+      "id": 192,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-192.dcm?AWSAccessKeyId=testing&Signature=7dtYyQXJigO0N6LLNVD3nItE53A%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-193.dcm",
+      "id": 193,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-193.dcm?AWSAccessKeyId=testing&Signature=ysKpdeD3oPMbPkHOJRfHxDOMdU8%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-194.dcm",
+      "id": 194,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-194.dcm?AWSAccessKeyId=testing&Signature=lNzfp81JLswhG%2FJ2cmITF2T6gZI%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-195.dcm",
+      "id": 195,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-195.dcm?AWSAccessKeyId=testing&Signature=VIrafLXdRFUBXUz%2FPc%2FNhjjMe88%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-196.dcm",
+      "id": 196,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-196.dcm?AWSAccessKeyId=testing&Signature=ihmlVe8AYFIfXghnecvH3JlZ8dg%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-197.dcm",
+      "id": 197,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-197.dcm?AWSAccessKeyId=testing&Signature=K7b7fiyuol2%2BzphoTM%2FDQIQNl18%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-198.dcm",
+      "id": 198,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-198.dcm?AWSAccessKeyId=testing&Signature=k%2F5pToIJoMIkKYonZckVbrM4SlQ%3D&x-amz-security-token=testing&Expires=1635976800"
+    },
+    {
+      "created_by": "test-user",
+      "created_timestamp": 1635926694,
+      "filename": "sample-199.dcm",
+      "id": 199,
+      "size": 256000,
+      "tags": [
+        {
+          "id": 1,
+          "name": "foo"
+        },
+        {
+          "id": 2,
+          "name": "bar"
+        },
+        {
+          "id": 3,
+          "name": "baz"
+        }
+      ],
+      "uploaded_timestamp": 1635926694,
+      "url": "http://localhost:4569/some-bucket/archive/2021/11/03/19-06-%7Bid%7D/sample-199.dcm?AWSAccessKeyId=testing&Signature=dUqcB1rNjVIMEl319FDwziEoVp4%3D&x-amz-security-token=testing&Expires=1635976800"
+    }
+  ]
+}
