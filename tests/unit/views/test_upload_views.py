@@ -5,14 +5,12 @@ from pathlib import Path
 
 import boto3
 import pytest
-from chalice.test import Client
 from freezegun import freeze_time
 from mypy_boto3_s3.service_resource import Bucket
 from sqlalchemy.orm.session import Session
 
-from app import app
 from chalicelib.models import Image
-from tests.helpers import dict_assert
+from tests.helpers import dict_assert, http_api
 
 
 @pytest.fixture
@@ -34,30 +32,29 @@ def test_upload(bucket: Bucket, db_session: Session, snapshot):
     image_b64_bytes = base64.b64encode(image_data)
     image_b64_str = image_b64_bytes.decode("utf-8")
 
-    with Client(app) as client:
-        response = client.http.post(
-            "/v1/upload",
-            headers={"Content-Type": "application/json"},
-            body=json.dumps(
-                {
-                    "filename": "image-00000.dcm",
-                    "image_data": image_b64_str,
-                    "tags": ["foo", "bar"],
-                }
-            ),
-        ).json_body
-        actual_tags = [t["name"] for t in response["tags"]]
-        assert "bar" in actual_tags
-        assert "foo" in actual_tags
+    response = http_api.post(
+        "/upload",
+        headers={"Content-Type": "application/json"},
+        body=json.dumps(
+            {
+                "filename": "image-00000.dcm",
+                "image_data": image_b64_str,
+                "tags": ["foo", "bar"],
+            }
+        ),
+    ).json_body
+    actual_tags = [t["name"] for t in response["tags"]]
+    assert "bar" in actual_tags
+    assert "foo" in actual_tags
 
-        del response["tags"]
-        del response["url"]
-        dict_assert(response, snapshot)
+    del response["tags"]
+    del response["url"]
+    dict_assert(response, snapshot)
 
-        image_id = response["id"]
-        image: Image = db_session.query(Image).filter_by(id=image_id).first()
-        assert image.upload_timestamp is not None
-        assert len(image.tags) > 0
+    image_id = response["id"]
+    image: Image = db_session.query(Image).filter_by(id=image_id).first()
+    assert image.upload_timestamp is not None
+    assert len(image.tags) > 0
 
     bucket_objects = [x for x in bucket.objects.all()]
     assert len(bucket_objects) >= 1
