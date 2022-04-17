@@ -1,3 +1,24 @@
 {
-  "message": "Missing Authentication Token"
+  "data": [
+    {
+      "id": 0,
+      "created_by": "string",
+      "created_timestamp": 0,
+      "filename": "string",
+      "size": 0,
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "uploaded_timestamp": 0,
+      "url": "string"
+    }
+  ],
+  "meta": {
+    "current_page": 0,
+    "has_more_pages": true,
+    "total_results": 0
+  }
 }
