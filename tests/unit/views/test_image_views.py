@@ -8,6 +8,7 @@ from tests.helpers import dict_assert, http_api
 from tests.helpers.build_image import build_image
 
 
+@pytest.mark.smoke
 @freeze_time("2021-11-03 21:00:00")
 def test_images(db_session: Session, snapshot):
     max_id = 200
@@ -33,6 +34,7 @@ def test_new_images_return_first(db_session: Session):
     assert first_image["id"] == 199, "New added image is not on the top of the list"
 
 
+@pytest.mark.smoke
 @freeze_time("2021-11-03 21:00:00")
 def test_image_post(db_session: Session):
     response = http_api.post(
@@ -52,6 +54,7 @@ def test_image_post(db_session: Session):
     assert len(response["tags"]) > 0, "Created image has wrong tags count"
 
 
+@pytest.mark.smoke
 @freeze_time("2021-11-03 21:00:00")
 def test_image_get(db_session, snapshot):
     build_image(db_session=db_session)
@@ -67,6 +70,7 @@ def test_get_image_not_exists(db_session):
     http_api.get("/images/0", expected_code=404)
 
 
+@pytest.mark.smoke
 @freeze_time("2021-11-03 21:00:00")
 def test_image_update(db_session, snapshot):
     image = build_image(db_session=db_session, tags=["foo"])

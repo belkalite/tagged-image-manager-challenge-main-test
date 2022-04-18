@@ -11,6 +11,7 @@ from chalicelib.validation import (
 )
 
 
+@pytest.mark.smoke
 def test_basic_types_valid():
     mock_request = MagicMock(spec_set=Request)
     mock_log = MagicMock()
@@ -35,6 +36,7 @@ def test_basic_types_valid():
     validate_payload(mock_app, specs)
 
 
+@pytest.mark.smoke
 @pytest.mark.parametrize(
     "test_input",
     [
@@ -61,6 +63,7 @@ def test_basic_types_invalid(test_input):
         validate_payload(mock_app, specs)
 
 
+@pytest.mark.smoke
 def test_missing_field():
     mock_request = MagicMock(spec_set=Request)
     mock_log = MagicMock()
@@ -79,6 +82,7 @@ def test_missing_field():
         validate_payload(mock_app, specs)
 
 
+@pytest.mark.smoke
 @pytest.mark.parametrize(
     "test_input",
     [
@@ -132,6 +136,7 @@ def test_query_param_validation(test_input):
         validate_query_params(mock_app, specs)
 
 
+@pytest.mark.smoke
 def test_ints_with_limits():
     mock_request = MagicMock(spec_set=Request)
     mock_log = MagicMock()
@@ -167,6 +172,7 @@ def test_ints_with_limits():
         validate_payload(mock_app, [spec])
 
 
+@pytest.mark.smoke
 def test_query_param_optional_with_none():
     mock_request = MagicMock()
     mock_log = MagicMock()

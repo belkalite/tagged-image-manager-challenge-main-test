@@ -1,8 +1,8 @@
 import base64
 import json
-import os
 from pathlib import Path
 
+import pytest
 from freezegun import freeze_time
 from mypy_boto3_s3.service_resource import Bucket
 from sqlalchemy.orm.session import Session
@@ -11,6 +11,7 @@ from chalicelib.models import Image
 from tests.helpers import dict_assert, http_api
 
 
+@pytest.mark.smoke
 @freeze_time("2021-11-03 21:00:00")
 def test_upload(bucket: Bucket, db_session: Session, snapshot):
     image_data = Path("tests/samples/image-00000.dcm").read_bytes()
