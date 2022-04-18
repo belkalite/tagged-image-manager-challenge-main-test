@@ -39,7 +39,7 @@ def test_basic_types_valid():
     "test_input",
     [
         None,
-        {"int": "1", "float": 123.45, "str": "hello world", "bool": True},
+        {"int": "1", "float": "123.45", "str": "hello world", "bool": 123},
     ],
 )
 def test_basic_types_invalid(test_input):

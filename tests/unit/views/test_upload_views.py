@@ -44,8 +44,8 @@ def test_upload(bucket: Bucket, db_session: Session, snapshot):
         ),
     ).json_body
     actual_tags = [t["name"] for t in response["tags"]]
-    assert "bar" in actual_tags
-    assert "foo" in actual_tags
+    assert "bar" in actual_tags, "Wrong 'tag' in response"
+    assert "foo" in actual_tags, "Wrong 'tag' in response"
 
     del response["tags"]
     del response["url"]
@@ -53,11 +53,11 @@ def test_upload(bucket: Bucket, db_session: Session, snapshot):
 
     image_id = response["id"]
     image: Image = db_session.query(Image).filter_by(id=image_id).first()
-    assert image.upload_timestamp is not None
-    assert len(image.tags) > 0
+    assert image.upload_timestamp is not None, "No 'upload_timestamp' in response"
+    assert len(image.tags) > 0, "No 'tags' in response"
 
     bucket_objects = [x for x in bucket.objects.all()]
-    assert len(bucket_objects) >= 1
-    assert bucket_objects[0].key.startswith("2021/11/03/")
-    assert bucket_objects[0].key.endswith("/image-00000.dcm")
-    assert bucket_objects[0].get()["Body"].read() == image_data
+    assert len(bucket_objects) >= 1, "Image was not uploaded"
+    assert bucket_objects[0].key.startswith("2021/11/03/"), "Wrong date"
+    assert bucket_objects[0].key.endswith("/image-00000.dcm"), "Wrong file name"
+    assert bucket_objects[0].get()["Body"].read() == image_data, "Image was not uploaded"

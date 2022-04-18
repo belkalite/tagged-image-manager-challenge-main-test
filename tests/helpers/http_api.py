@@ -8,6 +8,8 @@ def api_method(default_expected_code=200):
         def wrapped(self, *args, **kwargs):
             expected_code = kwargs.pop("expected_code", default_expected_code)
             response = func(self, *args, **kwargs)
+            app.log.error(f"{app.current_request.method} {app.current_request.path}")
+
             if response.status_code != expected_code:
                 raise AssertionError("Expected status code: {} but was {}.".format(expected_code, response.status_code))
             return response

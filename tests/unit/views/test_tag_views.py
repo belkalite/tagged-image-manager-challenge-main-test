@@ -18,8 +18,9 @@ def sample_tag(db_session: Session) -> Tuple[int, str]:
 def test_tags(sample_tag):
     response = http_api.get("/tags").json_body
     tag_id, tag_name = sample_tag
-    actual_tag = [r for r in response["results"] if r["id"] == tag_id][0]
-    assert actual_tag == {"id": tag_id, "name": tag_name}
+    assert response["results"] != [], "Can not get all tags"
+    actual_tag = [result for result in response["results"] if result["id"] == tag_id][0]
+    assert actual_tag == {"id": tag_id, "name": tag_name}, "Can not get tag"
 
 
 def test_create_tag(db_session):
@@ -28,22 +29,22 @@ def test_create_tag(db_session):
                              headers={"Content-Type": "application/json"},
                              body=json.dumps({"name": tag_name}),
                              )
-    assert response.json_body["name"] == tag_name
+    assert response.json_body["name"] == tag_name, "Wrong 'name' in response"
 
     # tag with same name only created once
     response = http_api.post("/tags",
                              headers={"Content-Type": "application/json"},
                              body=json.dumps({"name": tag_name}),
                              )
-    assert response.json_body["name"] == tag_name
-    assert db_session.query(Tag).where(Tag.name == tag_name).count() == 1
+    assert response.json_body["name"] == tag_name, "Wrong 'name' in response"
+    assert db_session.query(Tag).where(Tag.name == tag_name).count() == 1, "Tag with the same name was not created once"
 
 
 def test_tag(sample_tag):
     tag_id, tag_name = sample_tag
     response = http_api.get(f"/tags/{tag_id}").json_body
-    assert response["id"] == tag_id
-    assert response["name"] == tag_name
+    assert response["id"] == tag_id, "Wrong 'id' in response"
+    assert response["name"] == tag_name, "Wrong 'name' in response"
 
 
 def test_get_tag_not_exists():
@@ -58,13 +59,13 @@ def test_tag_update(db_session, sample_tag):
         headers={"Content-Type": "application/json"},
         body=json.dumps({"name": new_tag_name}),
     )
-    assert response.json_body["name"] == new_tag_name
+    assert response.json_body["name"] == new_tag_name, "Wrong 'name' in response"
 
 
 def test_tag_delete():
     tag_id = 1
     response = http_api.delete(f"/tags/{tag_id}").json_body
-    assert response == {}
+    assert response == {}, "Wrong response body"
     http_api.get(f"/tags/{tag_id}", expected_code=404)
 
 
@@ -72,4 +73,4 @@ def test_tag_delete():
 def test_tag_images():
     # not implemented yet
     response = http_api.get("/tags/1/images")
-    assert response.json_body == {}
+    assert response.json_body == {}, "Wrong response body"

@@ -109,19 +109,21 @@ def validate_payload(
     """
     current_request: Request = app.current_request
     if current_request.json_body is None:
-        app.log.warn("Request validation failed: no json data")
+        app.log.warning("Request validation failed: no json data")
         raise BadRequestError("no json data")
 
     data: typing.Dict[str, typing.Any] = current_request.json_body
 
     if data is None:
-        app.log.warn("Request validation failed: root data element is empty")
+        app.log.warning(
+            "Request validation failed: root data element is empty"
+        )
         raise BadRequestError("Root 'data' element empty")
 
     errors = _validate(data, specs)
 
     if len(errors) > 0:
-        app.log.warn({"msg": "Request validation failed", "errors": errors})
+        app.log.warning({"msg": "Request validation failed", "errors": errors})
 
         raise BadRequestError(f"Validation failed: {errors}")
 
@@ -137,7 +139,7 @@ def validate_query_params(
     current_request: Request = app.current_request
     if current_request.query_params is None:
         if any([s.required for s in specs]):
-            app.log.warn("Request validation failed: query_params missing")
+            app.log.warning("Request validation failed: query_params missing")
             raise BadRequestError("query_params: query_params missing")
 
         return
@@ -146,5 +148,5 @@ def validate_query_params(
     errors = _validate(query_params, specs, from_querystr=True)
 
     if len(errors) > 0:
-        app.log.warn(f"Request validation failed: {errors}")
+        app.log.warning(f"Request validation failed: {errors}")
         raise BadRequestError(f"Validation failed: {errors}")
