@@ -1,11 +1,14 @@
 import os
 from pathlib import Path
+from typing import Tuple
 
 import pytest
+import boto3
 from sqlalchemy import create_engine
+from mypy_boto3_s3.service_resource import Bucket
 from sqlalchemy.orm.session import Session, sessionmaker
 
-from chalicelib.models import Base
+from chalicelib.models import Base, Tag
 
 
 @pytest.fixture(autouse=True)
@@ -36,3 +39,24 @@ def db_session(db_engine) -> Session:
     session = Session()
 
     return session
+
+
+@pytest.fixture
+def sample_tag(db_session: Session) -> Tuple[int, str]:
+    tag = Tag(name="sample tag")
+    db_session.add(tag)
+    db_session.commit()
+    return tag.id, tag.name
+
+
+@pytest.fixture
+def bucket(mocker) -> Bucket:
+    s3 = boto3.resource(
+        "s3", endpoint_url=os.environ["S3_ENDPOINT"], region_name="us-east-1"
+    )
+    bucket_name = "the-bucket"
+    mocker.patch(
+        "chalicelib.models.Image.BUCKET_NAME",
+        bucket_name,
+    )
+    return s3.create_bucket(Bucket=bucket_name)

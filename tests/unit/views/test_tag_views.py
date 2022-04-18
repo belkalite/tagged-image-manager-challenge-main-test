@@ -1,18 +1,8 @@
 import json
-from typing import Tuple
-
 import pytest
-from sqlalchemy.orm.session import Session
+
 from chalicelib.models import Tag
 from tests.helpers import http_api
-
-
-@pytest.fixture
-def sample_tag(db_session: Session) -> Tuple[int, str]:
-    tag = Tag(name="sample tag")
-    db_session.add(tag)
-    db_session.commit()
-    return tag.id, tag.name
 
 
 def test_tags(sample_tag):

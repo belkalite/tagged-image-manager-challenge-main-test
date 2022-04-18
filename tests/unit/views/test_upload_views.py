@@ -3,27 +3,12 @@ import json
 import os
 from pathlib import Path
 
-import boto3
-import pytest
 from freezegun import freeze_time
 from mypy_boto3_s3.service_resource import Bucket
 from sqlalchemy.orm.session import Session
 
 from chalicelib.models import Image
 from tests.helpers import dict_assert, http_api
-
-
-@pytest.fixture
-def bucket(mocker) -> Bucket:
-    s3 = boto3.resource(
-        "s3", endpoint_url=os.environ["S3_ENDPOINT"], region_name="us-east-1"
-    )
-    bucket_name = "the-bucket"
-    mocker.patch(
-        "chalicelib.models.Image.BUCKET_NAME",
-        bucket_name,
-    )
-    return s3.create_bucket(Bucket=bucket_name)
 
 
 @freeze_time("2021-11-03 21:00:00")
