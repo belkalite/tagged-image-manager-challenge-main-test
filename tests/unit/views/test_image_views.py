@@ -1,130 +1,97 @@
 import json
-from typing import List, Optional
-from unittest import mock
 
 import pytest
-from chalice.test import Client
 from freezegun import freeze_time
 from sqlalchemy.orm.session import Session
-
-from app import app
-from chalicelib.db import get_or_create
-from chalicelib.models import Image, Tag
-from tests.helpers import dict_assert
+from chalicelib.models import Image
+from tests.helpers import dict_assert, http_api
+from tests.helpers.build_image import build_image
 
 
-def build_image(
-    db_session: Session,
-    id: Optional[int] = None,
-    created_by: str = "test-user",
-    created_timestamp: int = 1635926694,
-    size=256000,
-    upload_timestamp: Optional[int] = 1635926694,
-    prefix: Optional[str] = None,
-    tags: Optional[List[str]] = ["foo", "bar", "baz"],
-) -> Image:
-    filename = f"sample-{id}.dcm"
-    if prefix is None and upload_timestamp is not None:
-        prefix = "archive/2021/11/03/19-06-{id}/"
-
-    image = Image(
-        id=id,
-        filename=filename,
-        created_by=created_by,
-        created_timestamp=created_timestamp,
-        size=size,
-        upload_timestamp=upload_timestamp,
-        prefix=prefix,
-    )
-
-    if tags is not None:
-        for tag in tags:
-            tag_rec: Tag = get_or_create(db_session, Tag, name=tag)
-            image.tags.append(tag_rec)
-
-    db_session.add(image)
-    db_session.commit()
-    return image
-
-
+@pytest.mark.smoke
 @freeze_time("2021-11-03 21:00:00")
 def test_images(db_session: Session, snapshot):
-    for i in range(1, 200):
+    max_id = 200
+    for i in range(1, max_id):
         build_image(db_session=db_session, id=i)
+    response = http_api.get("/images").json_body
 
-    with Client(app) as client:
-        response = client.http.get("/v1/images").json_body
-        assert response["meta"] is not None
+    assert response["meta"] is not None, "No meta data in response"
+    dict_assert(response, snapshot, "page-1")  # TODO update snapshots in right orders
 
-        dict_assert(response, snapshot, "page-1")
-        # get second page
-        response = client.http.get("/v1/images?page=1").json_body
-        dict_assert(response, snapshot, "page-2")
-        assert response["meta"] is not None
-
-
-@freeze_time("2021-11-03 21:00:00")
-def test_post_image(db_session: Session, snapshot):
-    with Client(app) as client:
-        response = client.http.post(
-            "/v1/images",
-            headers={"Content-Type": "application/json"},
-            body=json.dumps(
-                {"filename": "test.dcm", "size": 1234, "tags": ["bar", "baz"]}
-            ),
-        ).json_body
-
-        assert isinstance(response["id"], int)
-        assert response["upload_url"].startswith("http")
-        image = db_session.query(Image).first()
-        assert len(image.tags) > 0
+    # get second page
+    response = http_api.get("/images?page=1").json_body
+    dict_assert(response, snapshot, "page-2")
+    assert response["meta"] is not None, "No meta data in response"
+    image = db_session.query(Image).all()
+    assert len(image) == max_id-1, "Images count is not equal to added"
 
 
 @freeze_time("2021-11-03 21:00:00")
-def test_image(db_session):
+def test_new_images_return_first(db_session: Session):
+    response = http_api.get("/images").json_body
+    first_image = response["results"][0]
+    assert first_image["id"] == 199, "New added image is not on the top of the list"
+
+
+@pytest.mark.smoke
+@freeze_time("2021-11-03 21:00:00")
+def test_image_post(db_session: Session):
+    response = http_api.post(
+        "/images",
+        headers={"Content-Type": "application/json"},
+        body=json.dumps(
+            {"filename": "test.dcm", "size": 1234, "tags": ["bar", "baz"]}
+        ),
+    ).json_body
+    image_id = response["id"]
+
+    assert isinstance(response["id"], int), "Data type of the 'id' field is not 'int'"
+    assert response["upload_url"].startswith("http"), "Upload url has invalid format"
+    response = http_api.get(f"/images/{image_id}").json_body
+    assert response["filename"] == "test.dcm", "Created image has wrong 'filename'"
+    assert response["size"] == 1234, "Created image has wrong 'size'"
+    assert len(response["tags"]) > 0, "Created image has wrong tags count"
+
+
+@pytest.mark.smoke
+@freeze_time("2021-11-03 21:00:00")
+def test_image_get(db_session, snapshot):
     build_image(db_session=db_session)
 
-    with Client(app) as client:
-        response = client.http.get("/v1/images/1").json_body
-        del response["url"]
-        assert response == {
-            "created_by": "test-user",
-            "created_timestamp": 1635926694,
-            "filename": "sample-1.dcm",
-            "id": 1,
-            "size": 256000,
-            "tags": [
-                {"id": 1, "name": "foo"},
-                {"id": 2, "name": "bar"},
-                {"id": 3, "name": "baz"},
-            ],
-            "uploaded_timestamp": 1635926694,
-        }
+    response = http_api.get("/images/1").json_body
+    del response["url"]
+
+    dict_assert(response, snapshot)
 
 
+@freeze_time("2021-11-03 21:00:00")
+def test_get_image_not_exists(db_session):
+    http_api.get("/images/0", expected_code=404)
+
+
+@pytest.mark.smoke
 @freeze_time("2021-11-03 21:00:00")
 def test_image_update(db_session, snapshot):
     image = build_image(db_session=db_session, tags=["foo"])
 
-    with Client(app) as client:
-        response = client.http.put(
-            f"/v1/images/{image.id}",
-            headers={"Content-Type": "application/json"},
-            body=json.dumps({"tags": ["foo", "bar", "baz"]}),
-        ).json_body
-        del response["url"]
-        del response["filename"]
-        dict_assert(response, snapshot)
+    response = http_api.put(
+        f"/images/{image.id}",
+        headers={"Content-Type": "application/json"},
+        body=json.dumps({"tags": ["foo", "bar", "baz"]}),
+    ).json_body
+    del response["url"]
+    del response["filename"]
+    dict_assert(response, snapshot)
 
     assert "foo" in [t.name for t in image.tags]
 
 
-def test_image_delete(db_session, snapshot):
-    image = build_image(db_session=db_session, tags=["foo"])
+@pytest.mark.xfail(reason="delete image is not implemented yet")
+def test_image_delete(db_session):
+    image = build_image(db_session=db_session)
     id = image.id
 
-    with Client(app) as client:
-        response = client.http.delete("/v1/images/1").json_body
-        assert response == {}
-
-    db_session.query(Image).filter_by(id=id).count() == 0
+    response = http_api.delete(f"/images/{id}", expected_code=204)
+    assert response.json_body == {}, "Wrong response body"
+    assert db_session.query(Image).filter_by(id=id).count() == 0, "Image was not deleted"

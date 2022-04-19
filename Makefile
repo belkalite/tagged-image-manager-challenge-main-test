@@ -40,6 +40,11 @@ tests: lint unittests
 unittests:
 	poetry run pytest -vv tests/unit
 
+smoke-tests: lint smoke
+
+smoke:
+	poetry run pytest -vv tests/unit -m smoke
+
 update-snapshots:
 	poetry run pytest tests/unit -v --snapshot-update --allow-snapshot-deletion
 

@@ -35,6 +35,14 @@ docker-compose up -d
 make tests
 ```
 
+Run smoke tests:
+
+```shell
+# for fake-s3
+docker-compose up -d
+make smoke-tests
+```
+
 ## Run locally (fake-s3 & no cognito/auth required)
 
 ```shell
